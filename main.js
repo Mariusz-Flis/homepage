@@ -1,4 +1,4 @@
-alert('Witaj na mojej stronie');
+/*alert('Witaj na mojej stronie');*/
 console.log('Witaj na mojej stronie');
 const name='Mariusz';
 const age=39;
