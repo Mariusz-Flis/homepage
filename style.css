@@ -1,0 +1,25 @@
+body {
+    background: darkgray
+}
+
+h1 {
+    color: crimson;
+    text-align: center;
+    background: #9fc9a1
+}
+
+h3 {
+    color: #06850c
+}
+
+h4 {
+    color: #0c0753
+}
+
+p {
+    color: black
+}
+
+footer {
+    text-align: center;
+}
