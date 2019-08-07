@@ -2,16 +2,6 @@ body {
     background: #adf5d3;
 }
 
-.main-header {
-    color: #070707;
-    text-align: center;
-    background: #37963c;
-}
-
-.section-header {
-    background: #5fa769;
-}
-
 .dairy-header {
     color: #1a1309;
     font-size: 20px;
@@ -23,10 +13,6 @@ body {
     font-size: 20px;
 }
 
-.paragraph {
-    color: #070707;
-}
-
 footer {
     text-align: center;
 }
@@ -36,4 +22,22 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+}
+
+.link {
+    color: #8e44ad
+}
+
+.main-header {
+    color: #070707;
+    text-align: center;
+    background: #37963c;
+}
+
+.paragraph {
+    color: #070707;
+}
+
+.section-header {
+    background: #5fa769;
 }
