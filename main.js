@@ -4,6 +4,6 @@ const name='Mariusz';
 const age=39;
 /*console.log(name);
 console.log(age);*/
-console.log(`Nazywam się ${name} mam ${age} lat, a to jest moj pierwszy skrypt w JavaScript.`)
+console.log(`Nazywam się ${name} mam ${age} lat, 🙈🙉🙊 to moja pierwsza strona WWW, i skrypt w JS 🛸`)
 
 

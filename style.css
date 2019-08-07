@@ -1,8 +1,9 @@
 body {
     background: #adf5d3;
 }
+
 .main-header {
-    color: #1a1309;
+    color: #070707;
     text-align: center;
     background: #37963c;
 }
@@ -18,12 +19,12 @@ body {
 }
 
 .footer-header {
-    color: #0c0753;
+    color: #150f6d;
     font-size: 20px;
 }
 
-p {
-    color: black;
+.paragraph {
+    color: #070707;
 }
 
 footer {
