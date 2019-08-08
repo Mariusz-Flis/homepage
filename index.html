@@ -10,8 +10,8 @@
 </head>
 
 <body>
-	<header>
-		<a class="link" href="index.html"> </a>
+	<header  class="navigation">
+		<a class="link" href="index.html"> Strona główna</a>
 		<a class="link" href="dzien1.html"> Dzień 1 </a>
 		<a class="link" href="dzien2.html"> Dzień 2 </a>
 		<a class="link" href="dzien3.html"> Dzień 3 </a>
@@ -19,18 +19,21 @@
 		<a class="link" href="dzien5.html"> Dzień 5 </a>
 		<a class="link" href="dzien6.html"> Dzień 6 </a>
 	</header>
-	<main class="main">
+	<main class="main" id="top">
 		<header>
 			<h1 class="main-header">Moja pierwsza strona domowa ktora powstała na podstawie kursu <br>#WTF - Maćka
 				Korsana</h1>
 		</header>
 		<section class="about">
 			<h2 class="section-header">O sobie (About me)</h2>
+			<img class="picture-author" src="pic/twarz.png" alt="zdjecie autora">
 			Początkujacy Frontend developer, magister , były student "Informatyki" , "Marketingu i zarządzania" który z
-			pogoni za szybką kasą wylądował i pracował na budowach <br>w New Jersey(USA) i Bergen(NO). <br>
-			<a class="link" href="#pamietniczek"> Przejdź do pamietniczka </a>
+			pogoni za szybką kasą wylądował i pracował na budowach w New Jersey(USA) i Bergen(NO).
+			<br><br><br><br><br><br><br><br>
+
+			<a class="link" href="#stopka"> Przejdź do stopka </a>
 		</section>
-		<section id="pamietniczek">
+		<section class="diary">
 			<h2 class="section-header">Pamiętniczek</h2>
 			<section>
 				<h3 class="dairy-header">Dzień 1</h3>
@@ -73,15 +76,16 @@
 			</section>
 			<p class="paragraph">Dzisiaj bawiłem sie w robienie fakenewsow. Fajna zabawa :) Zagłebilem sie w
 				rozwiazywanie problemu z
-				kursu, po ciezkich bojach udalo sie.  <br>
+				kursu, po ciezkich bojach udalo sie. <br>
 				<a class="link" href="dzien6.html"> Przejdź do dnia 6 </a>
 			</p>
 		</section>
 	</main>
 	<footer>
-		<h4 class="footer-header"><i>To jest moja pierwsza strona www ktora powstała na podstawie kursu #WTF- Maćka
-				Korsana oraz
-				#devstyle.pl</i></h4>
+
+		<h4 class="footer-header" id="stopka"><i>To jest moja pierwsza strona www ktora powstała na podstawie kursu
+				#WTF- Maćka Korsana oraz #devstyle.pl</i></h4>
+		<a href="#top" class="topmenu"> Na górę </a>
 	</footer>
 	<script src="main.js"> </script>
 </body>

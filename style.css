@@ -1,9 +1,14 @@
 .about {
-    text-align: center;
+    text-align: ;
+    /*overflow: hidden;*/
 }
 
 body {
     background: #adf5d3;
+}
+
+.diary {
+    clear: both;
 }
 
 .dairy-header {
@@ -13,12 +18,11 @@ body {
     padding: 0 0 0 16px;
 }
 
+footer {}
+
 .footer-header {
     color: #150f6d;
     font-size: 20px;
-}
-
-footer {
     text-align: center;
 }
 
@@ -26,17 +30,18 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
 }
 
 .link {
-    color: #8e44ad
+    color: #8e44ad;
+    text-decoration: none;
 }
 
 .main {
-    max-width: 1200px;
+    max-width: 1080px;
     width: 100%;
     margin: 32px auto;
+    padding-top: 10px;
 }
 
 .main-header {
@@ -45,12 +50,38 @@ img {
     background: #37963c;
 }
 
+.navigation {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 16px;
+    background: #adf5d3;
+}
+
 .paragraph {
     color: #070707;
     padding: 0 24px 8px 24px;
 }
 
+.picture-author {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 5px 3px;
+    float: left;
+}
+
 .section-header {
     background: #5fa769;
     text-align: center;
+}
+
+.topmenu {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    color: #8e44ad;
+    text-decoration: none;
 }
