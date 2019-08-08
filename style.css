@@ -3,6 +3,28 @@
     /*overflow: hidden;*/
 }
 
+.about__header {
+    background: #5fa769;
+    text-align: center;
+}
+
+.about__picture-author {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 5px 3px;
+    float: left;
+}
+
+.about__paragraph {
+    font-size: 24px
+}
+
+.about__link-footer {
+    color: #8e44ad;
+    text-decoration: none;
+}
+
 body {
     background: #adf5d3;
 }
@@ -11,28 +33,41 @@ body {
     clear: both;
 }
 
-.dairy-header {
+.diary__section-header {
+    background: #5fa769;
+    text-align: center;
+}
+
+.dairy__header {
     color: #1a1309;
     font-size: 20px;
     font-style: italic;
     padding: 0 0 0 16px;
 }
 
-footer {}
+.diary__paragraph {
+    color: #070707;
+    padding: 0 24px 8px 24px;
+    font-size: 18px;
+}
 
-.footer-header {
+.diary__link {
+    color: #8e44ad;
+    text-decoration: none;
+}
+
+.footer {}
+
+.footer__header {
     color: #150f6d;
     font-size: 20px;
     text-align: center;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.link {
+.footer__header-topmenu {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
     color: #8e44ad;
     text-decoration: none;
 }
@@ -41,10 +76,47 @@ img {
     max-width: 1080px;
     width: 100%;
     margin: 32px auto;
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
-.main-header {
+.main__article-img {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin: 5px 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__article-link {
+    color: #8e44ad;
+    text-decoration: none;
+}
+
+.main__article-paragraph {
+    text-indent: 30px; 
+}
+
+.main__article-footer {
+    text-align: right;
+    padding: 10px 0px;
+}
+
+.main__image {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 5px 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__link {
+    color: #8e44ad;
+    text-decoration: none;
+}
+
+.main__header {
     color: #070707;
     text-align: center;
     background: #37963c;
@@ -60,28 +132,11 @@ img {
     background: #adf5d3;
 }
 
-.paragraph {
-    color: #070707;
-    padding: 0 24px 8px 24px;
-}
-
-.picture-author {
-    width: 100%;
-    max-width: 200px;
-    display: block;
-    margin: 5px 3px;
-    float: left;
-}
-
-.section-header {
-    background: #5fa769;
-    text-align: center;
-}
-
-.topmenu {
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-    color: #8e44ad;
+.navigation__link {
+    margin-left: 20px;
+    color: #723e13;
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .5);
 }
