@@ -21,32 +21,32 @@ const qage = prompt('Czy mozesz zdradzić ile masz lat przybyszu');
 console.log(qFname);
 console.log(qage);*/
 
-const nameGosc = prompt('Podaj swoje imię:', 'wpisz imie');
+const nameGuest = prompt('Podaj swoje imię:', 'wpisz imie');
 
-if (nameGosc) {
-    ageGosc =prompt('Czy mozesz zdradzić ile masz lat:', 'wpisz wiek');
+if (nameGuest) {
+    ageGuest =prompt('Czy mozesz zdradzić ile masz lat:', 'wpisz wiek');
     
-    if (ageGosc) 
+    if (ageGuest) 
     { 
-        if (ageGosc==0) {alert ('Witaj!! ' + nameGosc +' albo jesteś niemowlakiem geniuszem, albo mnie okłamujesz');}
+        if (ageGuest==0) {alert ('Witaj!! ' + nameGuest +' albo jesteś niemowlakiem geniuszem, albo mnie okłamujesz');}
 
         else
         {
         
-            if (ageGosc==age) 
+            if (ageGuest==age) 
         
-            { alert('Witaj!! widzę ' + nameGosc +' ze jesteś w takim samym wieku co ja,cieszę sie ze odwiedza mnie rówieśnik');}
+            { alert('Witaj!! widzę ' + nameGuest +' ze jesteś w takim samym wieku co ja,cieszę sie ze odwiedza mnie rówieśnik');}
             
                 else 
                 {
  
-                    if ((ageGosc>0)&&(ageGosc <= age)&&( calculateAge = ageGosc => { return age - ageGosc; } ))
-                    { alert ('Witaj!! ' + nameGosc +' jestes młodsza/y odemnie o :'+ calculateAge(ageGosc) +' rok/lat/lata, mam nadzieję ze znajdziesz tu coś ciekawego' );}  
+                    if ((ageGuest>0)&&(ageGuest <= age)&&( calculateAge = ageGuest => { return age - ageGuest; } ))
+                    { alert ('Witaj!! ' + nameGuest +' jestes młodsza/y odemnie o :'+ calculateAge(ageGuest) +' rok/lat/lata, mam nadzieję ze znajdziesz tu coś ciekawego' );}  
 
                         else
                         {
 
-                            if ((ageGosc>0)&&(ageGosc >= age)&&( calculateAge = ageGosc => { return ageGosc - age; })) { alert ('Witaj!! '+ nameGosc +' jestes starsza/y odemnie o :'+calculateAge(ageGosc) +' rok/lat/lata, mam nadzieję ze znajdziesz tu coś ciekawego ');}
+                            if ((ageGuest>0)&&(ageGuest >= age)&&( calculateAge = ageGuest => { return ageGuest - age; })) { alert ('Witaj!! '+ nameGuest +' jestes starsza/y odemnie o :'+calculateAge(ageGuest) +' rok/lat/lata, mam nadzieję ze znajdziesz tu coś ciekawego ');}
                         
                         }            
             } 
@@ -60,7 +60,4 @@ else {
     alert('Anulowałeś akcję szkoda, miałem dla Ciebie niespodziankę');
 }
 
-document.querySelector('#prompt').addEventListener('click', function() {
-    oknoPrompt()
-});
 
