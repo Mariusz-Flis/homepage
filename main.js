@@ -24,31 +24,29 @@ console.log(qage);*/
 const nameGosc = prompt('Podaj swoje imię:', 'wpisz imie');
 
 if (nameGosc) {
-    alert('Witaj ' + nameGosc);
-    
-    ageGosc =prompt('Czy mozesz zdradzić ile masz lat przybyszu', 'wpisz wiek');
+    ageGosc =prompt('Czy mozesz zdradzić ile masz lat:', 'wpisz wiek');
     
     if (ageGosc) 
     { 
-        if (ageGosc==0) {alert ('Albo jesteś geniuszem, albo mnie okłamujesz');}
+        if (ageGosc==0) {alert ('Witaj!! ' + nameGosc +' albo jesteś niemowlakiem geniuszem, albo mnie okłamujesz');}
 
         else
         {
         
             if (ageGosc==age) 
         
-            { alert('O widzę ze jesteś w takim samym wieku co ja,cieszę sie ze odwiedza mnie rówieśnik');}
+            { alert('Witaj!! widzę ' + nameGosc +' ze jesteś w takim samym wieku co ja,cieszę sie ze odwiedza mnie rówieśnik');}
             
                 else 
                 {
  
-                    if ((ageGosc <= age)&&( younger= age-ageGosc))
-                    { alert ('Jestes młodsza/y odemnie o :'+ younger +' rok/lat/lata, mam nadzieję ze znajdziesz tu coś ciekawego' );}  
+                    if ((ageGosc>0)&&(ageGosc <= age)&&( calculateAge = ageGosc => { return age - ageGosc; } ))
+                    { alert ('Witaj!! ' + nameGosc +' jestes młodsza/y odemnie o :'+ calculateAge(ageGosc) +' rok/lat/lata, mam nadzieję ze znajdziesz tu coś ciekawego' );}  
 
                         else
                         {
 
-                            if ((ageGosc >= age)&&( older=ageGosc-age)) { alert ('Jestes starsza/y odemnie o :'+older +' rok/lat/lata, mam nadzieję ze znajdziesz tu coś ciekawego ');}
+                            if ((ageGosc>0)&&(ageGosc >= age)&&( calculateAge = ageGosc => { return ageGosc - age; })) { alert ('Witaj!! '+ nameGosc +' jestes starsza/y odemnie o :'+calculateAge(ageGosc) +' rok/lat/lata, mam nadzieję ze znajdziesz tu coś ciekawego ');}
                         
                         }            
             } 
