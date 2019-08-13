@@ -140,22 +140,26 @@ body {
     background: #a2b2b5;
 }
 
-.navigation {
- 
-}
+/*.navigation { }*/
 
 .navigation__item {
-    display: inline;
+    display: block;
+    margin: 0 15px;
 }
 
 .navigation__list {
 list-style: none;
-padding: 0;
-
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+justify-content: space-around;
+align-content: center;
+align-items: center;
+flex-grow: 1;
+padding-left: 0px;
 }
 
 .navigation__link {
-    /*margin-left: 0px;*/
     color: #1a1309;
     text-decoration: none;
     text-transform: uppercase;
