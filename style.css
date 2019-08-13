@@ -89,7 +89,7 @@ body {
     max-width: 1080px;
     width: 100%;
     margin: 32px auto;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .main__paragraph {
@@ -130,19 +130,33 @@ body {
     text-indent: 30px;
 }
 
-.navigation {
+.site-header {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     box-sizing: border-box;
-    padding: 16px;
+    padding: 5px;
     background: #a2b2b5;
 }
 
+.navigation {
+ 
+}
+
+.navigation__item {
+    display: inline;
+}
+
+.navigation__list {
+list-style: none;
+padding: 0;
+
+}
+
 .navigation__link {
-    margin-left: 20px;
-    color: #ffffff;
+    /*margin-left: 0px;*/
+    color: #1a1309;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 400;
