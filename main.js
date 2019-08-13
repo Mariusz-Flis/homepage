@@ -16,12 +16,9 @@ console.log(about.innerHTML);
 
 
 
-/*const qFname = prompt('Witaj jak masz na imie?');
-const qage = prompt('Czy mozesz zdradzić ile masz lat przybyszu');
-console.log(qFname);
-console.log(qage);*/
+//skrypt powitalny Alert
 
-const nameGuest = prompt('Podaj swoje imię:', 'wpisz imie');
+/*const nameGuest = prompt('Podaj swoje imię:', 'wpisz imie');
 
 if (nameGuest) {
     ageGuest =prompt('Czy mozesz zdradzić ile masz lat:', 'wpisz wiek');
@@ -58,6 +55,12 @@ if (nameGuest) {
 
 else {
     alert('Anulowałeś akcję szkoda, miałem dla Ciebie niespodziankę');
-}
+}*/
 
+// Funkcja powitalna strzałkowa
+const welcome = (name1,age1) => console.log(`Witaj ${name1}, masz ${age1} lat!`); 
+const myName= 'Mariusz';
+const myAge= 39;
 
+welcome(myName,myAge);
+welcome('Mariusz', 39);
