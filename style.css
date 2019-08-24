@@ -210,7 +210,7 @@ body {
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 651px) {
     .navigation__list {
         flex-direction: column;
         display: none;
@@ -225,7 +225,7 @@ body {
         border: none;
         background: none;
         position: absolute;
-        right: 96px;
+        right: 48px;
         top: 20px;
         color: #1a1309;
         text-decoration: none;
