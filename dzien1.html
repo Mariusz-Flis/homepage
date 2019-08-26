@@ -13,31 +13,138 @@
 <body>
     <!--nawigacja gora-->
     <header class="site-header">
-		<nav class="navigation">
-			<ul class="navigation__list  navigation__list--js">
-				<li class="navigation__item"><a class="navigation__link" href="index.html"> Strona główna</a></li>
-				<li class="navigation__item"><a class="navigation__link" href="dzien1.html"> Dzień 1 </a></li>
-				<li class="navigation__item"><a class="navigation__link" href="dzien2.html"> Dzień 2 </a></li>
-				<li class="navigation__item"><a class="navigation__link" href="dzien3.html"> Dzień 3 </a></li>
-				<li class="navigation__item"><a class="navigation__link" href="dzien4.html"> Dzień 4 </a></li>
-				<li class="navigation__item"><a class="navigation__link" href="dzien5.html"> Dzień 5 </a></li>
-				<li class="navigation__item"><a class="navigation__link" href="dzien6.html"> Dzień 6 </a></li>
-			</ul>
-		</nav><button class="navigation__switcher navigation__switcher--js" aria-label="otworz menu">MENU</button>
-	</header>
-    
+        <nav class="navigation">
+            <ul class="navigation__list  navigation__list--js">
+                <li class="navigation__item"><a class="navigation__link" href="index.html"> Strona główna</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="dzien1.html"> Dzień 1 </a></li>
+                <li class="navigation__item"><a class="navigation__link" href="dzien2.html"> Dzień 2 </a></li>
+                <li class="navigation__item"><a class="navigation__link" href="dzien3.html"> Dzień 3 </a></li>
+                <li class="navigation__item"><a class="navigation__link" href="dzien4.html"> Dzień 4 </a></li>
+                <li class="navigation__item"><a class="navigation__link" href="dzien5.html"> Dzień 5 </a></li>
+                <li class="navigation__item"><a class="navigation__link" href="dzien6.html"> Dzień 6 </a></li>
+            </ul>
+        </nav><button class="navigation__switcher navigation__switcher--js" aria-label="otworz menu">MENU</button>
+    </header>
+
     <!--Klasa Main-->
     <main class="main">
         <h1 class="main__header">Dzień 1</h1>
-        <a class="main__link" href="index.html"> Powrót do strony głównej </a><br>
-        <img class="main__img"src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/61314956_2748605135214379_5708029613901348864_n.jpg?_nc_cat=102&_nc_ht=scontent-arn2-1.xx&oh=298c0fa4b8e030fa75e8b17273fa0c4a&oe=5D8E3A64"
-            alt="zdjecie">
+        <a class="main__link" href="index.html"> Powrót do strony głównej </a><br><br><br>
+        <form action="https://dev.cotenfrontend.pl" method="POST" class="form">
+            <h4 class="form__header">Type: text</h4>
+            <p>
+                <label form="imie">Twoje Imię <br>
+                    <input type="text" required placeholder="Wpisz swoje imie" name="imie" id="imie">
+                </label>
+            </p>
+            <p>
+                <label form="nazwisko">Twoje Nazwisko <br>
+                    <input type="text" value="Nowak" name="mojeNazwisko" id="nazwisko">
+                </label>
+            </p>
+            <h4 class="form__header">Type: number</h4>
+            <p>
+                <label form="age">Twoj Wiek <br>
+                    <input type="number" value="18" name="wiek" id="wiek">
+                </label>
+            </p>
+            <h4 class="form__header">Type: tel</h4>
+            <p>
+                <label form="tel">Numer Telefonu<br>
+                    <input type="tel" name="tel" id="tel">
+                </label>
+            </p>
+            <h4 class="form__header">Type: email</h4>
+            <p>
+                <label form="email">Twój adres email<br>
+                    <input type="email" required name="email" id="email">
+                </label>
+            </p>
+            <h4 class="form__header">Type: Fieldset/Options</h4>
+            <fieldset class="form__fieldset">
+                <legend>
+                    Dane
+                </legend>
+                <p>
+                    <input type="radio" checked name="radio" value="Option 1" id="radio1">
+                    <!--checked-domyślne zaznaczenie value-domyślna wartośc-->
+                    <label form="radio1">Opcja 1</label>
+                </p>
+                <p>
+                    <input type="radio" name="radio" id="radio2">
+                    <label form="radio2">Opcja 2</label>
+                </p>
+                <p>
+                    <input type="radio" name="radio" id="radio3">
+                    <label form="radio3">Opcja 3</label>
+                </p>
+                <p>
+                    <label form="radio4">Opcja 4</label>
+                    <input type="radio" name="radio1" id="radio4">
+                </p>
+                <p>
+                    <label form="radio5">Opcja 5</label>
+                    <input type="radio" name="radio1" id="radio5">
+                </p>
+
+            </fieldset>
+            <h4 class="form__header">Type: Checkbox</h4>
+            <p>
+                <input type="checkbox" checked name="checkbox" value="Ford Fiesta" id="checkbox">
+                <!--checked-domyślne zaznaczenie value-domyślna wartośc-->
+                <label form="checkbox1">Check 1</label>
+            </p>
+            <p>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label form="checkbox2">Check 2</label>
+            </p>
+            <h4 class="form__header">Type: Range</h4>
+            <p>
+                <input type="range" min="0" max="100" step="25" value="50" name="range" id="checkbox2">
+                <label form="range">Check 2</label>
+            </p>
+            <h4 class="form__header">Type: Password</h4>
+            <p>
+                <label form="password">Hasło<br></label>
+                <input type="password" name="password" id="password">
+            </p>
+            <h4 class="form__header">Type: File</h4>
+            <p>
+                <label form="file">Dodaj plik:<br></label>
+                <input type="file" name="file" id="file">
+            </p>
+            <h4 class="form__header">Type: Select</h4>
+            <p>
+                <label for="select">Proszę zaznacz odpowiedź</label>
+                <select name="select" id="select">
+                    <option value="Uzytkownik zaznaczył Tak">Tak</option>
+                    <option value="Uzytkownik zaznaczył Nie">Nie</option>
+                    <option value="Uzytkownik zaznaczył Może">Może</option>
+                </select>
+            </p>
+            <h4 class="form__header">Type: Text area</h4>
+            <p>
+                <label for="select">Prole tekstowe<br></label>
+                <textarea id="textarea" name="textarea"></textarea>
+            </p>
+            <!--<p>
+                <label>
+                    <input type="text" value="Mariusz" name="name" id="name">
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="tape" value="cotenfrontend" name="riddle" id="riddle">
+                </label>
+            </p> -->
+            <input type="submit" value="Wyślij formularz">
+        </form>
     </main>
-    
+
     <!--Stopka-->
     <footer class="footer">
         <h4 class="footer__header" id="stopka">To jest moja pierwsza strona www ktora powstała na podstawie kursu
-                #WTF- Maćka Korsana oraz #devstyle.pl </h4>
+            #WTF- Maćka Korsana oraz #devstyle.pl </h4>
         <a class="footer__topmenu" href="#top"> Na górę </a>
     </footer>
 
