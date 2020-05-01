@@ -10,7 +10,7 @@
 
 .about__picture {
     width: 100%;
-    max-width: 200px;
+    max-width: 220px;
     display: block;
     margin: 0 auto;
     border-radius: 15px;
@@ -55,37 +55,43 @@ body {
     clear: both;
 }
 
-.diary__grid {
+/*.diary__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 8px;
     grid-row-gap: 8px;
-}
+    text-align: center;
+}*/
 
 .diary__header {
     background: #c8d3d5;
     text-align: center;
 }
 
-/*.day {}*/
+.day {
+ background: #86b9d3;
+ border-radius: 10px;
+}
 
 .day__title {
     color: #1a1309;
     font-size: 20px;
     font-style: italic;
     padding: 0 0 0 16px;
+    text-align: center;
 }
 
 .day__paragraph {
     color: #070707;
-    padding: 0 24px 8px 24px;
+    padding: 0 24px 15px 24px;
     font-size: 18px;
     text-align: justify;
+    text-align: center;
 }
 
-.day__link {
-    color: #2978a0;
-    text-decoration: none;
+.day__link {  
+    color: #ebf0f3;
+    text-decoration: none;  
 }
 
 /* .footer {} */
@@ -133,16 +139,6 @@ body {
 
 .main__paragraph {
     text-indent: 30px;
-}
-
-.main__footer {
-    text-align: right;
-    padding: 10px 0px;
-}
-
-.main__footer {
-    text-align: right;
-    padding: 10px 0px;
 }
 
 .main__header {
@@ -285,4 +281,67 @@ body {
     body {
         background: #dae5e8;
     }
+}
+
+
+.person {
+    display: flex;
+    align-items: flex-start;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 8px;
+}
+
+.person__name {
+    margin: 0 0;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.person__position {
+    color: #545454;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.person__header {
+    margin-bottom: 32px;
+    font-size: 36px;
+}
+
+.person__description {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 5;
+    
+}
+
+.person__special {
+    color: #ED6D05;
+    font-weight: normal;
+}
+
+.person__link--fb {
+    /*color: #E20613;
+    text-decoration: none;*/
+    width: 55px;
+    height: 55px;
+}
+
+.person__link--github {
+    width: 45px;
+    height: 45px;
+}
+
+.person__link--mail {
+    width: 45px;
+    height: 45px;
+}
+
+.person__contact {
+    margin: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
 }
