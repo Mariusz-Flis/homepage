@@ -1,203 +1,191 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Strona główna</title>
-    <link href="normalize.css" rel="stylesheet" type="text/css" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
 
-  <body>
-    <!--nawigacja gora-->
-    <header class="site-header" id="#top">
-      <nav class="navigation">
-        <ul class="navigation__list navigation__list--js">
-          <li class="navigation__item">
-            <a class="navigation__link" href="index.html"> Strona główna</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="html.html"> HTML </a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="css.html"> CSS </a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="javaScript.html"> Java Script </a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="terminalGit.html">
-              Terminal & GIT
-            </a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="gulpWebpack.html">
-              Gulp & Webpack
-            </a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="hotLinks.html">
-              Przydatne linki
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <button
-        class="navigation__switcher navigation__switcher--js"
-        aria-label="Otwórz menu"
-      >
-        MENU
-      </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Strona główna</title>
+  <link href="normalize.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
-      <!--Wcześniejsza Nawigacja-->
-      <!--<a class="navigation__link" href="index.html"> Strona główna</a>
+<body>
+  <!--nawigacja gora-->
+  <header class="site-header" id="#top">
+    <nav class="navigation">
+      <ul class="navigation__list navigation__list--js">
+        <li class="navigation__item">
+          <a class="navigation__link" href="index.html"> Strona główna</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="html.html"> HTML </a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="css.html"> CSS </a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="javaScript.html"> Java Script </a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="terminalGit.html">
+            Terminal & GIT
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="gulpWebpack.html">
+            Gulp & Webpack
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="hotLinks.html">
+            Przydatne linki
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <button class="navigation__switcher navigation__switcher--js" aria-label="Otwórz menu">
+      MENU
+    </button>
+
+    <!--Wcześniejsza Nawigacja-->
+    <!--<a class="navigation__link" href="index.html"> Strona główna</a>
 		<a class="navigation__link" href="dzien1.html"> Dzień 1 </a>
 		<a class="navigation__link" href="dzien2.html"> Dzień 2 </a>
 		<a class="navigation__link" href="dzien3.html"> Dzień 3 </a>
 		<a class="navigation__link" href="dzien4.html"> Dzień 4 </a>
 		<a class="navigation__link" href="dzien5.html"> Dzień 5 </a>
 		<a class="navigation__link" href="dzien6.html"> Dzień 6 </a>-->
+  </header>
+  <!--Klasa Main-->
+  <main class="main">
+    <header>
+      <h1 class="main__header main__header--mainpage">
+        Moja pierwsza strona domowa ktora powstała na podstawie kursu #WTF_CoTenFrontend - Maćka
+        Korsana
+      </h1>
     </header>
-    <!--Klasa Main-->
-    <main class="main">
-      <header>
-        <h1 class="main__header main__header--mainpage">
-          Moja pierwsza strona domowa ktora powstała na podstawie kursu
-          #WTF_CoTenFrontend - Maćka Korsana  
-        </h1>
-      </header>
-      <!--Section about-->
-      <section class="about">
-        <h2 class="about__header">O sobie (About me)</h2>
-        <div class="about__grid">
-          <img class="about__picture" src="pic/me.jpg" alt="zdjecie autora" />
-          <article class="person">
-            <header clas="person__header">
-              <h1 class="person__name">Mariusz Flis</h1>
-              <span class="person__position"
-                >junior frontend developer *in spe</span
-              >
-            </header>
-            <p class="person__description">
-              <strong class="person__special">Poczatkujacy programista</strong>,
-              studiowałem Informatykę "Systemy i sieci komputerowe" (<strong
-                class="person__special"
-                >licencjat</strong
-              >) oraz Marketing i zarządzanie "Komunikacja w Biznesie" (<strong
-                class="person__special"
-                >magister</strong
-              >), <em>budowlaniec</em>, rekonstruktor wojsk Commonwealth-u 🇬🇧.
-              Interesuję się nowinkami w IT 💻, Mobile 📱 , Gamingu 🎮. W
-              <em>wolnych chwilach</em> lubię pograć na Playstation i PC.
-            </p>
-            <p class="person__contact">
-              <a class="" href="https://www.facebook.com/mario.flis.7">
-                <img
-                  class="person__link--fb"
-                  src="pic/facebook.png"
-                  alt="Ikona Facebooka"
-              /></a>
+    <!--Section about-->
+    <section class="about">
+      <h2 class="about__header">O sobie (About me)</h2>
+      <div class="about__grid">
+        <img class="about__picture" src="pic/me.jpg" alt="zdjecie autora" />
+        <article class="person">
+          <header clas="person__header">
+            <h1 class="person__name">Mariusz Flis</h1>
+            <span class="person__position"> junior frontend developer *in spe</span>
+          </header>
+          <p class="person__description">
+            <strong class="person__special">Poczatkujacy programista</strong>, studiowałem
+            Informatykę "Systemy i sieci komputerowe" (<strong class="person__special">licencjat</strong>) oraz
+            Marketing i zarządzanie "Komunikacja w Biznesie" (<strong class="person__special">
+              magister</strong>), <em>budowlaniec</em>, rekonstruktor wojsk Commonwealth-u 🇬🇧. Interesuję się
+            nowinkami w IT 💻, Mobile 📱 , Gamingu 🎮. W <em>wolnych chwilach</em> lubię pograć na
+            Playstation i PC.
+          </p>
+          <p class="person__contact">
+            <a class="" href="https://www.facebook.com/mario.flis.7">
+              <img class="person__link--fb" src="pic/facebook.png" alt="Ikona Facebooka" /></a>
 
-              <a class="" href="https://github.com/Mariusz-Flis">
-                <img
-                  class="person__link--github"
-                  src="pic/github.png"
-                  alt="Ikona github"
-              /></a>
+            <a class="" href="https://github.com/Mariusz-Flis">
+              <img class="person__link--github" src="pic/github.png" alt="Ikona github" /></a>
 
-              <a class="" href="mailto:mr_ffox@poczta.fm">
-                <img
-                  class="person__link--mail"
-                  src="pic/gmail.png"
-                  alt="Ikona email"
-              /></a>
-            </p>
-          </article>
-        </div>
-        <a class="about__link" href="#stopka"> Przejdź do stopka </a>
-      </section>
+            <a class="" href="mailto:mr_ffox@poczta.fm">
+              <img class="person__link--mail" src="pic/gmail.png" alt="Ikona email" /></a>
+          </p>
+        </article>
+      </div>
+      <a class="about__link" href="#stopka"> Przejdź do stopka </a>
+    </section>
 
-      <!--Section diary-->
-      <section class="diary">
-        <h2 class="diary__header">Notatniczek</h2>
-        <div class="diary__grid">
-          <section class="day">
-            <br />
-            <h3 class="day__title">HTML</h3>
-            <p class="day__paragraph">
-              Podstawy z HTML, jak zacząć przygodę z robieniem stron WWW :)<br /><br />
-              <a class="day__link" href="html.html"> Przejdź tego działu </a>
-            </p>
-          </section>
+    <!--Section diary-->
+    <section class="diary">
+      <h2 class="diary__header">Notatniczek</h2>
+      <div class="diary__grid">
+        <section class="day">
+          <br />
+          <h3 class="day__title">HTML</h3>
+          <p class="day__paragraph">
+            Podstawy z HTML, jak zacząć przygodę z robieniem stron WWW :)<br /><br />
+            <a class="day__link" href="html.html"> Przejdź tego działu </a>
+          </p>
+        </section>
 
-          <section class="day">
-            <br />
-            <h3 class="day__title">CSS</h3>
-            <p class="day__paragraph">
-              Notatki odnośnie stylowania kodu HTML za pomocą CSS , co zrobić by
-              nasza strona strona wyglądała ładniej :)<br /><br />
-              <a class="day__link" href="css.html"> Przejdź tego działu </a>
-            </p>
-          </section>
+        <section class="day">
+          <br />
+          <h3 class="day__title">CSS</h3>
+          <p class="day__paragraph">
+            Notatki odnośnie stylowania kodu HTML za pomocą CSS , co zrobić by nasza strona strona
+            wyglądała ładniej :)<br /><br />
+            <a class="day__link" href="css.html"> Przejdź tego działu </a>
+          </p>
+        </section>
 
-          <section class="day">
-            <br />
-            <h3 class="day__title">Java Script</h3>
-            <p class="day__paragraph">
-              Java Script jezyk programowania jest to Smok ktorego bedziemy
-              tutaj powoli oswajać :)<br /><br />
-              <a class="day__link" href="javaScript.html"> Przejdź tego działu </a>
-            </p>
-          </section>
+        <section class="day">
+          <br />
+          <h3 class="day__title">Java Script</h3>
+          <p class="day__paragraph">
+            Java Script jezyk programowania jest to Smok ktorego bedziemy tutaj powoli oswajać
+            :)<br /><br />
+            <a class="day__link" href="javaScript.html">
+              Przejdź tego działu
+            </a>
+          </p>
+        </section>
 
-          <section class="day">
-            <br />
-            <h3 class="day__title">Terminal & GIT</h3>
-            <p class="day__paragraph">
-              Podstawowe komendy terminala Linux/Mac oraz instalacja
-              konfiguracja Git/GitHub (System kontroli wersji). Ogólnie patrząc
-              jak sprawić by polubić Terminal i czuć sie w nim swobodniej.<br /><br />
-              <a class="day__link" href="terminalGit.html"> Przejdź tego działu </a>
-            </p>
-          </section>
+        <section class="day">
+          <br />
+          <h3 class="day__title">Terminal & GIT</h3>
+          <p class="day__paragraph">
+            Podstawowe komendy terminala Linux/Mac oraz instalacja konfiguracja Git/GitHub (System
+            kontroli wersji). Ogólnie patrząc jak sprawić by polubić Terminal i czuć sie w nim
+            swobodniej.<br /><br />
+            <a class="day__link" href="terminalGit.html">
+              Przejdź tego działu
+            </a>
+          </p>
+        </section>
 
-          <section class="day">
-            <br />
-            <h3 class="day__title">Gulp & WEBPACK</h3>
-            <p class="day__paragraph">
-              A to dopiero będzie :)<br /><br />
-              <a class="day__link" href="gulpWebpack.html"> Przejdź tego działu </a>
-            </p>
-          </section>
+        <section class="day">
+          <br />
+          <h3 class="day__title">Gulp & WEBPACK</h3>
+          <p class="day__paragraph">
+            A to dopiero będzie :)<br /><br />
+            <a class="day__link" href="gulpWebpack.html">
+              Przejdź tego działu
+            </a>
+          </p>
+        </section>
 
-          <section class="day">
-            <br />
-            <h3 class="day__title">Przydatne linki</h3>
-            <p class="day__paragraph">
-              Różne ciekawe linki przydatne przy tworzeniu stron WWW.
-              <br /><br />
-              <a class="day__link" href="hotLinks.html"> Przejdź tego działu </a>
-            </p>
-          </section>
-        </div>
-      </section>
-    </main>
+        <section class="day">
+          <br />
+          <h3 class="day__title">Przydatne linki</h3>
+          <p class="day__paragraph">
+            Różne ciekawe linki przydatne przy tworzeniu stron WWW.
+            <br /><br />
+            <a class="day__link" href="hotLinks.html">
+              Przejdź tego działu
+            </a>
+          </p>
+        </section>
+      </div>
+    </section>
+  </main>
 
-    <!--Stopka-->
-    <footer class="footer">
-      <h4 class="footer__header" id="stopka">
-        To jest moja pierwsza strona www ktora powstała na podstawie kursu
-        <img class="" src="pic/png/icon-72x72.png" alt="Logo Co ten frontend" />
-        <a href="https://cotenfrontend.pl/#program-szkolenia">
-          #WTF-Co Ten Frontend</a>
-        Maćka Korsana na portalu Maćka Aniserowicza
-        <a href="https://devstyle.pl/"> #devstyle.pl</a>
-      </h4>
-      <a class="footer__topmenu" href="#top"> Na górę </a>
-    </footer>
+  <!--Stopka-->
+  <footer class="footer">
+    <h4 class="footer__header" id="stopka">
+      To jest moja pierwsza strona www ktora powstała na podstawie kursu
+      <img class="" src="pic/png/icon-72x72.png" alt="Logo Co ten frontend" />
+      <a href="https://cotenfrontend.pl/#program-szkolenia"> #WTF-Co Ten Frontend</a>
+      Maćka Korsana na portalu Maćka Aniserowicza
+      <a href="https://devstyle.pl/"> #devstyle.pl</a>
+    </h4>
+    <a class="footer__topmenu" href="#top"> Na górę </a>
+  </footer>
 
-    <!--Skrypt JS-->
-    <script src="main.js"></script>
-  </body>
+  <!--Skrypt JS-->
+  <script src="main.js"></script>
+</body>
+
 </html>
