@@ -151,7 +151,7 @@ body {
 }
 
 .main__header--mainpage {
-  background-image: url("/pic/Bergen2.jpg"); /* ../homepage/pic/Bergen2.jpg*/
+  background-image: url("../homepage/pic/Bergen2.jpg"); /* ../homepage/pic/Bergen2.jpg*/
   width: 100%;
   max-width: 1080px;
   background-clip: padding-box;
